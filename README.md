@@ -9,7 +9,7 @@ for managing user-defined paths
    ```
 3. Remove a user path
    ```shell
-    fish_del_path path_index  # Replace 'path_index' with the desired index (e.g., 1 or 2)
+   fish_del_path path_index  # Replace 'path_index' with the desired index (e.g., 1 or 2)
    ```
 
 ## Installation
