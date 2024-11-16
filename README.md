@@ -14,8 +14,8 @@ for managing user-defined paths
 
 ## Installation
 ```shell
-git clone https://github.com/rafli-raihan/fish-extra-path-functions ~/.config/fish/
-rm -rf ~/.config/fish/{.git, README.md}
+git clone https://github.com/rafli-raihan/fish-extra-path-functions ~/
+mv ~/fish-extra-path-functions/functions ~/.config/fish/
 ```
 
 ## Uninstall
