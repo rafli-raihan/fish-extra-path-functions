@@ -14,11 +14,12 @@ for managing user-defined paths
 
 ## Installation
 ```shell
-git clone https://github.com/rafli-raihan/fish-extra-path-functions ~/
-mv ~/fish-extra-path-functions/functions ~/.config/fish/
+git clone https://github.com/rafli-raihan/fish-extra-path-functions ~/fish-extra-path-functions/
+mv ~/fish-extra-path-functions/functions/ ~/.config/fish/
+rm -rf ~/fish-extra-path-functions/
 ```
 
 ## Uninstall
 ```shell
-rm -rf ~/.config/fish/functions/{fish_list_path.fish, fish_del_path.fish}
+rm ~/.config/fish/functions/{fish_list_path.fish, fish_del_path.fish}
 ```
